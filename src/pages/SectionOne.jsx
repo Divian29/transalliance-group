@@ -1,6 +1,8 @@
 import React from 'react'
 import img1 from "../assets/images/img1.svg"
 import img2 from "../assets/images/img2.svg"
+import img3 from "../assets/images/img3.svg"
+
 
 
 
@@ -33,14 +35,24 @@ const SectionOne = () => {
                         />
                     </div>
                 </div>
-                <div className='w-[50%]'>
+
+                <div className='w-[80%] flex justify-end'  >
+                    <img
+                     loading="lazy"
+                    srcSet={img3}
+                    className="grow aspect-[3] max-md:mt-10 max-md:max-w-full"
+                    />
+                </div>
+
+                {/* <div className='w-[50%]'>
                     <img
                      loading="lazy"
                     srcSet={img2}
                     className="grow aspect-[0.93] max-md:mt-10 max-md:max-w-full"
                     />
-                </div>
+                </div> */}
             </div>
+            
 
         </div>
     )
