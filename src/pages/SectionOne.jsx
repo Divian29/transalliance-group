@@ -4,9 +4,6 @@ import img2 from "../assets/images/img2.svg"
 import img3 from "../assets/images/img3.svg"
 
 
-
-
-
 const SectionOne = () => {
     return (
         <div>

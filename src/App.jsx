@@ -2,6 +2,7 @@
 import './App.css'
 import { Header } from './components/Header'
 import SectionOne from './pages/SectionOne'
+import SectionThree from './pages/SectionThree'
 import SectionTwo from './pages/SectionTwo'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />  
       <SectionOne/>
       <SectionTwo/>
+      <SectionThree/>
         </>
   )
 }
