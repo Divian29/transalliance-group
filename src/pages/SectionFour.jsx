@@ -3,6 +3,8 @@ import img20 from "../assets/images/img20.svg";
 import img21 from "../assets/images/img21.svg";
 import img22 from "../assets/images/img22.svg";
 import img23 from "../assets/images/img23.svg";
+import LineBreak from '../components/LineBreak';
+
 
 
 
